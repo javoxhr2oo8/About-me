@@ -18,9 +18,6 @@
             --gradient-2: linear-gradient(135deg, #feda77, #f58529, #dd2a7b);
         }
 
-        /* ========================================
-           RESET & BASE
-        ======================================== */
         * {
             margin: 0;
             padding: 0;
@@ -35,7 +32,6 @@
             overflow-x: hidden;
         }
 
-        /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 5px;
         }
@@ -49,14 +45,12 @@
             border-radius: 10px;
         }
 
-        /* Container */
         .container {
             max-width: 1280px;
             margin: 0 auto;
             padding: 0 24px;
         }
 
-        /* Section Styles */
         section {
             padding: 80px 0;
         }
@@ -97,9 +91,6 @@
             margin: 0 auto;
         }
 
-        /* ========================================
-           HERO SECTION
-        ======================================== */
         .hero {
             display: flex;
             align-items: center;
@@ -214,9 +205,6 @@
             transform: translateY(-2px);
         }
 
-        /* ========================================
-           SKILLS SECTION
-        ======================================== */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -257,9 +245,6 @@
             color: var(--text-secondary);
         }
 
-        /* ========================================
-           PROJECTS SECTION
-        ======================================== */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -320,9 +305,6 @@
             color: var(--primary);
         }
 
-        /* ========================================
-           REVIEWS SECTION
-        ======================================== */
         .reviews-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -380,9 +362,6 @@
             font-style: italic;
         }
 
-        /* ========================================
-           INSTAGRAM SECTION
-        ======================================== */
         .instagram-section {
             background: linear-gradient(135deg, rgba(108, 92, 231, 0.05), rgba(108, 92, 231, 0.02));
             border-radius: 32px;
@@ -453,9 +432,6 @@
             transform: translateY(-2px);
         }
 
-        /* ========================================
-           CONTACT SECTION
-        ======================================== */
         .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -503,9 +479,6 @@
             color: var(--primary);
         }
 
-        /* ========================================
-           FOOTER
-        ======================================== */
         footer {
             border-top: 1px solid var(--border);
             padding: 32px 24px;
@@ -514,9 +487,6 @@
             font-size: 14px;
         }
 
-        /* ========================================
-           ANIMATIONS
-        ======================================== */
         @keyframes fadeUp {
             from {
                 opacity: 0;
@@ -533,37 +503,40 @@
             animation: fadeUp 0.6s ease forwards;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 16px;
-            }
+@media (max-width: 768px) {
+    .container {
+        padding: 0 16px;
+    }
 
-            section {
-                padding: 10px 0;
-            }
+    section {
+        padding: 10px 0;
+    }
 
-            .hero h1 {
-                font-size: 40px;
-            }
+    .hero h1 {
+        font-size: 40px;
+    }
 
-            .hero-stats {
-                gap: 24px;
-            }
+    .hero-stats {
+        gap: 24px;
+    }
 
-            .stat-number {
-                font-size: 24px;
-            }
+    .stat-number {
+        font-size: 24px;
+    }
 
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 
-            .section-title {
-                font-size: 28px;
-            }
+    .section-title {
+        font-size: 28px;
+    }
 
-            .instagram-username {
-                font-size: 18px;
-            }
-        }
+    .instagram-username {
+        font-size: 18px;
+    }
+}
+
+.hero-logo {
+    font-size: 100px;
+}        
